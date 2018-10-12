@@ -707,7 +707,6 @@
 							"name": "content",
 							"type": "TEXT",
 							"length": "100",
-							"nullable": true,
 							"unique": true
 						}
 					]
@@ -744,7 +743,6 @@
 							"name": "content",
 							"type": "TEXT",
 							"length": 0,
-							"nullable": true,
 							"unique": true
 						}
 					]
@@ -831,9 +829,9 @@
 								"$ref": "AAAAAAFmT4oNnVzoGfI="
 							},
 							"name": "timesOfAppearance",
+							"documentation": "default 1",
 							"type": "INT",
-							"length": 0,
-							"nullable": true
+							"length": 0
 						},
 						{
 							"_type": "ERDColumn",
@@ -843,8 +841,7 @@
 							},
 							"name": "dateOfAppended",
 							"type": "DATE",
-							"length": 0,
-							"nullable": true
+							"length": 0
 						}
 					]
 				},
@@ -908,6 +905,7 @@
 								"$ref": "AAAAAAFmUfo3twQc1NY="
 							},
 							"name": "numberOfArticles",
+							"documentation": "default 0",
 							"type": "INT",
 							"length": 0
 						},

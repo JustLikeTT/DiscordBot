@@ -21,5 +21,6 @@ async def on_message(message):
 
 if __name__ == '__main__':
 
-    token = "NDk4NTA5MzQ1ODM1OTc0Njk2.DpvJkA.utbqXg2c0X7IWAvPm1JgYer99hg"
+    with open("token.txt","r") as file:
+        token = file.read()
     bot.run(token)
